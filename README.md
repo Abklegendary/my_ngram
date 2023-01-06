@@ -2,19 +2,18 @@
 ***
 
 ## Task
-TODO - What is the problem? And where is the challenge?
+we are to write a program that counts the number of occurrence of a character 
 
 ## Description
-TODO - How have you solved the problem?
+we used the ASCII concept to build the program, we used a for loop to loop through an array of strings, within the for loop block we used a while loop to loop through each string in the array.
+we created a variable to hold the argv[i] array, then loop through each characterin the string and change the position of the loop.
+we used a for loop to loop through the position of the ASCII, the if condition outputs both the character and its number of occurrence.
 
 ## Installation
-TODO - How to install your project? npm install? make? make re?
+there is nothing to be installed
 
 ## Usage
-TODO - How does it work?
-```
-./my_project argument1 argument2
-```
+there is no need to add a usage
 
 ### The Core Team
 
