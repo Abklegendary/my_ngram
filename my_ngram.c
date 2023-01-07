@@ -2,21 +2,22 @@
 #include <stdlib.h>
 
 int main(int argc, char** argv){
-    char my_ngram[128] = {0};          //128 is the highest position in the ASCII - using the ASCII concept to achieve the positioning for the characters passed in
-    for (int i = 1; i < argc; i++)  //loops through an array of strings
+
+    int count = argc;
+    char myNgCounter[128] = {0};         
+    for (int i = 1; i < count; i++)  
     {
-        while (*argv[i])            //loops through each string in the array
+        while (*argv[i])            
         {
-            int value = *argv[i];     //variable created to hold the argv[i] array
-            my_ngram[value] += 1;        //loops through each characters in the strings and changes the position of the loop
+            int val = *argv[i];     
+            myNgCounter[val] += 1;        
             argv[i]++;
         }
     }
 
-    for (int x = 0; x < 128; x++)   //loops through the ASCII positions or memmory value
-    {
-        if (my_ngram[x]) printf("%c:%d\n", x, my_ngram[x]);   //condition to output both the characters and number of occurences/frequency
-    }
+    for (int x = 0; x < 128; x++){
 
+        if (myNgCounter[x]) printf("%c:%d\n", x, myNgCounter[x]);
+    }
     return 0;
 }

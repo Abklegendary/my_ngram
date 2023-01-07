@@ -2,7 +2,7 @@
 ***
 
 ## Task
-we are to write a program that counts the number of occurrence of a character 
+We are to write a program that counts the number of occurrence of a character 
 
 ## Description
 we used the ASCII concept to build the program, we used a for loop to loop through an array of strings, within the for loop block we used a while loop to loop through each string in the array.
@@ -10,10 +10,11 @@ we created a variable to hold the argv[i] array, then loop through each characte
 we used a for loop to loop through the position of the ASCII, the if condition outputs both the character and its number of occurrence.
 
 ## Installation
-there is nothing to be installed
+No installation needed. The program can be run from the command prompt just like any other executable program
+
 
 ## Usage
-there is no need to add a usage
+From the comand prompt run the following script .\my_ngram arg1 arg2 arg3 where arg(n) are the string arguments supplied to the program to execute each character counting.
 
 ### The Core Team
 
